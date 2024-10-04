@@ -1,0 +1,182 @@
+
+.header{
+    background-color: brown;
+
+
+}
+.img-control{
+
+height: 300px!important;
+width: 100%;
+
+}
+.heading{
+    color: green;
+}
+.head4{
+    margin-top: 20px;
+    border-bottom: 2px black;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 98, 152);
+    border-color: rgb(13, 98, 152);
+}
+.ul, li{
+    list-style: none;
+}
+ li{
+    
+  
+    color: white;
+    
+    font: bold 0.8em Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    line-height: 28px;
+    /* background-color: #182672; */
+    background-color: rgb(13, 98, 152);
+    width: 90%;
+
+    
+   
+    
+}
+.notice{
+
+   
+    overflow-y: scroll;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: 1px solid lightgray;
+}
+li, h6{
+
+    background-color: #182672;
+}
+
+    
+
+h5, bg-dark{
+
+    color: white;
+    width: 90%;
+}
+
+.About-list{
+    
+    border-right: 1px dashed lightblue;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-control{
+    /* box-shadow: 0 3px 100px rgb(0 0 0 / 0.2) inset; */
+    
+    
+    width: 100%;
+    margin-left: 22px!important;
+    
+    
+
+
+
+}
+.new-container{
+    background-image: url("../assets/img/cta-bg.jpg");
+
+    
+
+
+}
+.container4{
+    background-image: url("../assets/img/cta-bg.jpg");
+
+}
+.card2{
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.card-style{
+
+    border-left:1px dotted lightblue ;
+    
+    
+}
+.card-layout{
+    background-color: #1dab35;;
+    color: #fff;
+    border: 5px solid white;
+
+}
+
+.heading1{
+
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    
+}
+.cards{
+
+   background-image: url("../assets/img/cta-bg.jpg");
+
+    
+    color: #fff;
+}
+.card-img{
+    border-radius: 200px;
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    
+}
+.img{
+    border: 5px solid #fff;
+    border-radius: 6px;
+     transition: all 0.4s ease;
+    
+}
+.list{
+    width:90%;
+}
+.new-container3{
+    background-image: url("../assets/img/seed5.jpg"); 
+    color: #fff;
+    position: relative;
+
+}
+.fish1{
+
+    /* width:300px;
+    height:200px; */
+
+    width:100%;
+    height:80%;
+    border: 5px solid #fff;
+    
+}
+.fish2{
+    width:30%;
+    height:80%;
+    margin-left:35%;
+    
+
+}
+.heading10{
+    color: #fff;
+    background-image: url("../assets/img/cta-bg.jpg");
+}
+.content{
+    background-color:aqua ;
+     background-image: url("../assets/img/seed5.jpg"); 
+    color: #182672;
+
+
+}
+.box1{
+    width:20%;
+    height:40%;
+    color: #fff;
+    justify-content: space-between 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,126 @@
+/* navv.css */
+
+.header1{
+
+  background-color: #182672;
+    
+  width: 100%;
+  color: white;
+  height: 40px;
+}
+.header2{
+  /* background-image: url("../assets/img/cta-bg.jpg"); */
+ 
+}
+.contact-us {
+  position: absolute; /* Position it relative to the nearest positioned ancestor */
+       /* Adjust this value as needed */
+  right: 10px;       /* Adjust this value as needed */
+   /* Optional: add a background for visibility */
+  padding: 10px;     /* Optional: add padding for better spacing */
+  border-radius: 5px; /* Optional: add border radius for rounded corners */
+  z-index: 1000;     /* Ensure it's above other elements */
+  
+}
+@media(max-width:767px){
+
+  .contact-us{
+    display:  none;
+  }
+}
+
+.img-brand {
+    width: 50% ;/* Adjust the size as needed */
+   
+     
+    background-color: #007bff;
+    border: 5px solid#fff!important;
+  }
+
+ 
+  .search-bar{
+  line-height: 10px;
+  }
+  .search-btn{
+    margin-left: 50px;
+  }
+  .head1{
+  
+    font: Georgia, "Times New Roman", Times, serif;
+    margin-top: 20px
+  }
+  .head2{
+    color: #182672;
+    font: bold 1.5em Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+   
+    
+  }
+  .header3 {
+    width: 100%;
+    background-color: #182672;
+    
+    cursor: pointer;
+  }
+  .nav-toggle{
+    background-color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff; /* Customize link color */
+    border-right: 3px solid #fff;
+    margin-left: 25px;
+    
+  }
+
+  
+
+  @media(max-width:767px){
+
+    
+.img-brand {
+  width: 30% ;/* Adjust the size as needed */
+}
+     
+  .nav-link {
+    color: #fff; /* Customize link color */
+    cursor: pointer;
+   
+    border-bottom:1px solid gray;
+  }
+  
+  .nav-link:hover {
+    color: hsl(214, 15%, 91%); /* Change color on hover */
+  }
+
+
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Dropdown background color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e2e6ea; /* Change background color on hover */
+  }
+
+
+
+  .nav-login{
+    
+    color: #fff;
+    border-radius: 12px;
+    padding: 6px ;
+   margin-top: 10px;
+   margin-left: 20px;
+   box-shadow: 10px 10px 8px 10px gray inset;
+   background-color: #fff;
+   color: #000;
+
+   
+  }
+  

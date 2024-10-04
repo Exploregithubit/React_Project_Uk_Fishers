@@ -1,0 +1,59 @@
+.container{
+    
+    box-shadow: 0 3px 10px #00000033;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-list{
+    margin-left: 90px;
+}
+
+@media(max-width:767px){ 
+    .btn-list{
+        display: none;
+    }
+}
+
+
+.btn-info{
+    background-color: #17a2b8;
+    color: #fff;
+    margin-left: 0;
+}
+.form-control{
+
+ 
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.heads{
+ background-image: url("../assets/img/seed1.png"); 
+     padding: 40px 0;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+.text-white {
+    font-size: 30px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.text-success{
+
+    background-color:  #d4edda;
+    line-height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.btn-success{
+
+    background-color: #1ed085;;
+}

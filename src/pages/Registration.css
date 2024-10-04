@@ -1,0 +1,41 @@
+.container{
+    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 70%;
+    height:auto;
+    border-radius: 10px;
+}
+.heads{
+    background-image: url("../assets/img/seed1.png"); 
+     padding: 40px 0;
+       background-position: center center;
+       position: relative;
+       
+       
+   }
+
+
+   .heads::after {
+    content: "";
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+
+    
+    top: 0px;
+    left: 0;
+    background-color: rgba(21, 40, 60, .8);
+}
+   
+
+.text-white {
+    font-size: 30px;
+    color: #fff;
+    line-height: 20px;
+    
+    position: relative;
+    font-weight: bold;
+}

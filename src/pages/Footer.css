@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.footer{
+    /* background-image: url("../assets/img/bg-footer.jpg"); */
+  
+  background-color: #182672;
+  color: #fff;
+  flex:1;
+}
